@@ -1,0 +1,149 @@
+
+
+.back-image{
+    background-image: url(../imgs/mingwei-lim-FWp9yrgW658-unsplash.jpg);
+    background-size: 100%;
+    background-color: #292929;
+    background-position: 50% 50%;    
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -999;
+    background-attachment: fixed;
+    animation: back-slingshot 3s linear infinite alternate;
+}
+.color-transition{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-image: linear-gradient(transparent, #111);
+}
+
+
+
+
+
+
+/*----------------MAIN---------------- */
+
+
+
+
+
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+main h1{
+    font-size: 4rem;
+}
+main p{
+    font-size: 1.5rem;
+    margin: 0px;
+}
+main div:nth-of-type(1){
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main div:nth-of-type(2) img{
+    margin: 50px;
+}
+
+
+
+
+
+
+/*--------------ANIMAÇÃO--------------  */
+
+
+
+
+
+.ani-content{
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.part{
+    height: 100%;
+    width: 1px;
+    border-radius: 50%;
+    background-color: orange;
+    box-shadow: 0px 0px 5px 2px orange;
+    animation: part-ani calc(100s/var(--i)) ease-in-out infinite;
+}
+
+
+
+
+/* ----------------FOTTER----------------- */
+
+
+
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(#111, #352300);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes part-ani {
+    0%{
+        transform: translate(0vh, 0vh);
+        opacity: 0;
+    }
+    50%{
+        transform: translate(50vh, -60vh);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(150vh, -120vh);    
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    
+    main h1{
+        font-size: 3rem;
+    }
+    .back-image{
+        background-size: 50%;
+        background-position: 0% 0%;    
+    }
+
+
+}

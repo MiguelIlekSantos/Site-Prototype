@@ -1,0 +1,144 @@
+
+.back-color{
+    background-image: linear-gradient(135deg, #111 50%, #493000);
+    background-size: 200%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -999;
+    animation: ani-back 5s linear infinite alternate;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 160px;
+    width: 100%;
+}
+.content{
+    color: white;
+    padding: 40px;
+    background-color: #282828;
+    border-radius: 15px;
+    width: 100%;
+    position: relative;
+}
+.content h1{
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.content p{
+    margin: 15px 0px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px;
+    padding-left: 15px;
+    background-color: #0000002d;
+    border: 1px solid #aaaaaa;
+    border-radius: 8px;
+    color: white;
+    font-family: Raleway;
+    font-size: 1rem;
+}
+input::placeholder{
+    font-family: Raleway;
+    color: #c4c4c4;
+    font-size: 1rem;
+}
+.content form div{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: var(--row-column) wrap;
+    justify-content: center;
+}
+.content form div a:nth-of-type(1) button{
+    padding: 15px 40px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-image: var(--btn-bg-color-gradient);
+    background-color: transparent;
+    border: none;
+    transition: backgroud-image 2s, outline 1s, transform 1s;
+    outline: 2px solid transparent;
+    transition: outline 0.5s;
+}
+.content form div a:nth-of-type(1) button:hover{
+    outline: 2px solid white;
+}
+.content form div a:nth-of-type(2) button{
+    padding: 15px 40px;
+    color: var(--link-color);
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.content form div a:nth-of-type(2) button:hover{
+    text-decoration: underline;
+}
+.content form input:invalid{
+    border: 1px solid #ff4c4c;
+}
+.box{
+    padding: 5px;
+    overflow: hidden;
+    max-width: 800px;
+    min-width: 350px;
+    position: relative;
+    border-radius: 20px;
+}
+.border-back{
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border-radius: 50px;
+    background-image: conic-gradient(from 0deg, #9e6400, #ffd000);
+    animation: ani-border-two 5s linear infinite;
+    top: -50%;
+    left: -50%;
+}
+
+
+
+
+
+
+
+
+@keyframes ani-border-two {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes ani-back {
+    
+    0%{
+        background-position: 0 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,225 @@
+.back-color{
+    background-image: linear-gradient(135deg, #111 50%, #493000);
+    background-size: 200%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -999;
+    animation: ani-back 5s linear infinite alternate;
+
+}
+
+
+main{
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+main figure{
+    padding: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+main img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* ---------------BAR--------------- */
+
+
+
+
+.bar{
+    height: 75px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px solid gray;
+}
+form{
+    height: 100%;
+    width: 90%;
+}
+input{
+    height: 100%;
+    width: 100%;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    color: white;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+}
+.bar div{
+    width: 20%;
+    height: 100%;
+}
+.submit-btn-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  
+    border: none;
+    outline: 2px solid transparent; 
+    background-color: #ff9900;
+    font-size: 1.4rem;
+    transition: outline 0.1s, transform 0.1s, background-color 0.1s;
+}
+.submit-btn:active{
+    background-color: #bb7900;
+    transform: scale(1.1);
+    outline: 2px solid white;
+}
+.submit-btn:hover{
+    background-color: #905600;
+    text-decoration: line-through;
+}
+
+
+
+
+
+/* ------------------ITEM------------------ */
+
+
+
+
+
+.itens-content{
+    width: 50%;
+    padding: 15px;
+    background-color: #252525;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.item{
+    width: 100%;
+    min-height: 50px;
+    background-color: #404040;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.item figure, .item p, .delete-btn{
+    height: 100%;
+}
+.item figure{
+    width: 20%;
+}
+.item figure img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    outline: 2px solid transparent;
+    transition: outline 0.1s;
+}
+.item-btn img:hover{
+    outline: 2px solid white;
+    filter: drop-shadow(0px 0px 10px white);
+}
+.item p{
+    width: 60%;
+    padding: 0px 5px 0px 0px;
+}
+.delete-btn{
+    border: 1px solid red;
+    width: 20%;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #913a3a;
+    transition: transform 0.1s, background-color 0.1s;
+}
+.delete-btn:hover{
+    background-color: #985a5a;
+}
+.delete-btn p{
+    height: 20px;
+    width: 50px;
+}
+.delete-btn img{
+    filter: drop-shadow(0px 0px 1px red);
+}
+.delete-btn:active{
+    background-color: #6e2525;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes ani-back {
+    
+    0%{
+        background-position: 0 50%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    
+    .bar{
+        width: 90%;
+    }
+    .itens-content{
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    
+    .item{
+        flex-direction: column;
+    }
+    .item figure, .item p, .delete-btn{
+        width: 100%;
+    }
+    .item p{
+        text-align: center;
+    }
+    .delete-btn p{
+        text-align: start;
+    }
+
+}
+

@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #111;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+}
+
+figure {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* ----------------HEADER---------------- */
+
+
+
+
+
+header {
+    background-color: #191919e7;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 998;
+}
+
+.icon-img {
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    outline: 1px solid transparent;
+    outline-offset: 1px;
+    transition: outline-color 0.1s;
+}
+
+.icon-img:hover {
+    outline: 2px solid orange;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    position: relative;
+}
+
+.nav-icons {
+    background-color: #272727;
+    width: 120px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    position: relative;
+}
+
+.nav-btns {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-btns a {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    position: relative;
+    background-color: #272727;
+    color: white;
+    transition: transform 0.1s, background-color 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav-btns a:hover {
+    transform: scale(1.1);
+    background-color: #cfcfcf;
+    color: black;
+}
+
+.border {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 154px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.back {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50px;
+    background-image: conic-gradient(from 0deg, #ffa200, #ffd000);
+    animation: ani-border 3s linear infinite;
+}
+
+.hamburguer-menu {
+    display: none;
+    float: right;
+}
+
+.hamburguer-menu img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+/* ---------CREATOR DETAILS------------ */
+
+
+
+
+
+.creator-details {
+    position: absolute;
+    z-index: 999;
+    top: 5vh;
+    left: 25vh;
+    background-color: #111;
+    border-radius: 50px;
+    width: 330px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.back-two {
+    position: absolute;
+    background-image: conic-gradient(from 0deg, #bb7600, #ffd000);
+    animation: ani-border 4s linear infinite;
+    width: 500%;
+    height: 500%;
+}
+
+.creator-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    border-radius: inherit;
+    color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.close-details {
+    background-color: transparent;
+    border: none;
+    align-self: start;
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.close-details:hover {
+    background-color: #474747;
+}
+
+.close-details figure img {
+    height: 100%;
+    width: 100%;
+}
+
+.icon-img-two img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
+@keyframes ani-border {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes back-slingshot {
+    from {
+        background-size: 105%;
+    }
+
+    to {
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    nav {
+        flex-direction: column;
+        padding: 5px;
+        display: none;
+    }
+
+    .hamburguer-menu {
+        display: flex;
+    }
+
+    .nav-icons {
+        margin: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .creator-details {
+        top: unset;
+        left: unset;
+        margin: 400px auto auto auto;
+    }
+    .nav-btns {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
+
