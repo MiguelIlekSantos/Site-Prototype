@@ -5,7 +5,7 @@
    <img  height="250" alt="Prototype" title="Prototype" src="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/assets/138301252/6f6e580d-630d-4399-8542-545b799776a6" />
    <br>
    <i>
-        Prototype site for apply database knowledge (in future) !
+        Prototype site for apply Javascript basic knowledge !
        <br>
        Now on your screen. 
    </i>
@@ -20,7 +20,7 @@
    </i>
    
    <p align="center" dir="auto">
-      <a href="https://miguelileksantos.github.io/Site-Prototype-Task-list/">Click to play !<a/>
+      <a href="https://miguelileksantos.github.io/Site-Prototype-Task-list/">Click to go !<a/>
    </p>
    </p>
    
@@ -40,16 +40,17 @@
 
 ## Introduction
 
-> This game was made to provide a fun experience while gaining knowledge about the Cyllyric alphabet <br>
-> All you need to do is click on the letter corresponding to the phoneme shown on the ship 🛸<br>
-> Therefore the difficult keep increasing so you need to be fast, good luck :four_leaf_clover: ! 
+> This site was original made for testing my abilities on Javascript <br>
+> This does not have a database system yet, so all you need to do is read the tutorial on homepage<br>
+> and click in _log in_ followed of _go in_ 
 
 ## Interfaces
 
 ### Desktop :desktop_computer:
 <p align="center">
    <br>
-   <img  height="500" alt="RussianAlfhabetGame" title="RussianAlfhabetGame" src="https://github.com/MiguelIlekSantos/russian-alphabet-game/assets/138301252/e5df9ece-87a6-4da5-a436-c94341742159" />
+   <img  height="500" alt="Home-page" title="Home-page" src="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/assets/138301252/6f6e580d-630d-4399-8542-545b799776a6" />
+   <img  height="500" alt="Home-page" title="Home-page" src="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/assets/138301252/c505bc98-2cb0-4e61-ad7d-46c30fdcda6b" />
    <br>
 </p>
 
@@ -71,12 +72,11 @@
       <ul dir="auto">
          <li><code>Math.floor(value) :</code> This method is used to return the closest value of `value` before `value` in terms of less than or equal.</li> <br>
          <li><code>Math.random() :</code> This method is used to return a random number between 0 (inclusive) and 1 (exclusive). </li> <br>
-         <li><code>.add(...items) :</code> This method is used to add one or more elements to an array. It returns a new array with the added elements.</li> <br>
-         <li><code>.contains() :</code> This method is used to check whether an array contains a particular element. It returns `true` if the element is found, `false` otherwise.</li> <br>
          <li><code>.remove() :</code> This method is used to remove an element from an array.</li> <br>
-         <li><code>setTimeout(callback[, delay]) :</code> This method is used to schedule a function to be executed after a certain delay in milliseconds.</li> <br>
-         <li><code>setInterval(callback[, delay]) :</code> This method is used to schedule the execution of a function at regular intervals in milliseconds.</li> <br>
          <li><code>.click(element) :</code> This method is used to simulate clicking an HTML element. It is used to select an HTML element and perform click action on it.</li> <br>
+         <li><code>.focus() :</code> this method is used to set focus on an HTML element such as a text field or a button. When focus is set on an element, that element is the entry point for user input.</li>
+         <li><code>.preventDefault() :</code> this method is used to cancel the default action of an event, such as a mouse click or key press.</li>
+         <li><code>.setAttribute() :</code> this method is used to set or change an attribute of an HTML element.</li>
       </ul>
    </li>
 </ul>
