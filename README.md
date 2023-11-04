@@ -5,7 +5,6 @@
    <img  height="250" alt="Prototype" title="Prototype" src="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/assets/138301252/6f6e580d-630d-4399-8542-545b799776a6" />
    <br>
    <i>
-
         Prototype site for apply database knowledge (in future) !
        <br>
        Now on your screen. 
