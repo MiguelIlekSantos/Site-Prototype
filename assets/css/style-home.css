@@ -140,6 +140,9 @@ footer{
     main h1{
         font-size: 3rem;
     }
+    main img{
+        width: 350px;
+    }
     .back-image{
         background-size: 50%;
         background-position: 0% 0%;    
