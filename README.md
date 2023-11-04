@@ -20,7 +20,7 @@
    </i>
    
    <p align="center" dir="auto">
-      <a href="https://miguelileksantos.github.io/russian-alphabet-game/">Click to play !<a/>
+      <a href="https://miguelileksantos.github.io/Site-Prototype-Task-list/">Click to play !<a/>
    </p>
    </p>
    
@@ -29,11 +29,11 @@
 ***
 
 <p align="center" dir="auto">
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#interfaces"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#stacks"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#future-developing">Future developing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#why--bulb">Why ?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/edit/main/README.md#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/edit/main/README.md#interfaces"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/edit/main/README.md#stacks"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/edit/main/README.md#future-developing">Future developing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/edit/main/README.md#why--bulb">Why ?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
  
 ***
