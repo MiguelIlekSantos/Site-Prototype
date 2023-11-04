@@ -11,7 +11,7 @@
    </i>
    <br>
    <p align="center"> 
-      <img  height="200" alt="QR_code_Prototype" title="QR_code_Prototype" src="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/assets/138301252/1b9114c6-dfa3-404a-8373-bc9587378b8e" />
+      <img  height="200" alt="QR_code_Prototype" title="QR_code_Prototype" src="https://github.com/MiguelIlekSantos/Site-Prototype-Task-list/assets/138301252/38f2f7c5-d5f2-4ca5-93f0-04da606e05c3" />
       <br>
       <br>
 
