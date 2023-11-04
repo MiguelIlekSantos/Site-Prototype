@@ -74,9 +74,9 @@
          <li><code>Math.random() :</code> This method is used to return a random number between 0 (inclusive) and 1 (exclusive). </li> <br>
          <li><code>.remove() :</code> This method is used to remove an element from an array.</li> <br>
          <li><code>.click(element) :</code> This method is used to simulate clicking an HTML element. It is used to select an HTML element and perform click action on it.</li> <br>
-         <li><code>.focus() :</code> this method is used to set focus on an HTML element such as a text field or a button. When focus is set on an element, that element is the entry point for user input.</li>
-         <li><code>.preventDefault() :</code> this method is used to cancel the default action of an event, such as a mouse click or key press.</li>
-         <li><code>.setAttribute() :</code> this method is used to set or change an attribute of an HTML element.</li>
+         <li><code>.focus() :</code> this method is used to set focus on an HTML element such as a text field or a button. When focus is set on an element, that element is the entry point for user input.</li> <br>
+         <li><code>.preventDefault() :</code> this method is used to cancel the default action of an event, such as a mouse click or key press.</li> <br>
+         <li><code>.setAttribute() :</code> this method is used to set or change an attribute of an HTML element.</li> <br>
       </ul>
    </li>
 </ul>
@@ -115,17 +115,13 @@ src="https://camo.githubusercontent.com/92dc8e4a52f9b517fc80f4c8886065e441fe5140
 
 ## Future developing :hammer_and_wrench:
 
-This game is completed, but I am planning to make upgrades in future. This upgrades includes : 
+This site is completed, but I am planning to make upgrades in future. This upgrades includes : 
 
-1. Make it responsive for mobile phones :iphone:
-2. Add explosion effects :fire:
-3. Create a second version of this game, where instead of phonemes we need write words
+1. Use database system to save accounts and tasks.
 
 <br>
 
 ## Why ? :bulb:
 
-The main inspiration for this game was the game _Flippy Bit And The Attack Of The Hexadecimals From Base 16_.
-<br>
-Which you can find by this link : [Click here !](https://flippybitandtheattackofthehexadecimalsfrombase16.com)
+Originally I just wanted to create a fine site to improve my Javascript in a simple project, but then I realize that I could in future learn and use database to make an upgrade !
 
